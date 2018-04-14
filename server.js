@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  const message = `MAIL = ${process.env.EMAIL_ADDRESS}`;
+  const message = `MAIL = ${process.env.RDS_PASSWORD}`;
   res.send(message);
 });
 
