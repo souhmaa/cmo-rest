@@ -1,4 +1,4 @@
-FROM 585739960460.dkr.ecr.eu-west-1.amazonaws.com/cmo-node-parent:1.2
+FROM 585739960460.dkr.ecr.eu-west-1.amazonaws.com/cmo-node-parent:1.3
 
 WORKDIR /usr/src/app
 
