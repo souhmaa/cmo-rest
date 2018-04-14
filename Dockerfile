@@ -4,6 +4,8 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
+ENV EMAIL_ADDRESS maalaoui.ensi@gmail.com
+
 RUN npm install
 
 COPY . .
