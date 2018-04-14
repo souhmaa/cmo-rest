@@ -11,3 +11,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 90
+
+ENTRYPOINT ["/bin/bash", "-c", "eval $(/bin/aws-env) && npm start"]
