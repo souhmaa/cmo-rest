@@ -9,7 +9,8 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('This is my first Docker node container');
+  const message = `MAIL = ${process.env.EMAIL_ADDRESS}`;
+  res.send(message);
 });
 
 app.listen(PORT, HOST);
