@@ -1,5 +1,5 @@
 {
-    "family": "cmo-web",
+    "family": "cmo-rest",
     "containerDefinitions": [
         {
             "name": "cmo-rest",
