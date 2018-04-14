@@ -1,0 +1,18 @@
+{
+    "family": "cmo-web",
+    "containerDefinitions": [
+        {
+            "name": "cmo-rest",
+            "image": "%REPOSITORY_URI%:%BUILD_NUMBER%",
+            "cpu": 10,
+            "memory": 1000,
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "hostPort": 3000
+                }
+            ],
+            "essential": true
+        }
+    ]
+}
