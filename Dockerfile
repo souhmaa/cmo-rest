@@ -6,6 +6,7 @@ COPY package*.json ./
 
 ENV EMAIL_ADDRESS maalaoui.ensi@gmail.com
 ENV AWS_ENV_PATH /prod/cmo/
+ENV AWS_REGION eu-west-1
 
 RUN npm install
 
